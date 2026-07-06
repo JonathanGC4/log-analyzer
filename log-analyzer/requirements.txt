@@ -1,0 +1,8 @@
+# Log Analyzer no requiere dependencias externas.
+#
+# Todas las librerías usadas (tkinter, datetime, os/pathlib, time,
+# collections) forman parte de la biblioteca estándar de Python 3.
+#
+# Este archivo se mantiene presente por convención de estructura de
+# proyecto, y por si en una iteración futura se decide agregar alguna
+# dependencia (por ejemplo, pytest para pruebas automatizadas).
