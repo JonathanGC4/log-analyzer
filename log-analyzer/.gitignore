@@ -1,0 +1,15 @@
+# Bytecode compilado de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos de configuración de editores/IDEs
+.vscode/
+.idea/
+
+# Archivos de sistema
+.DS_Store
