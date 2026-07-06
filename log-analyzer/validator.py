@@ -2,9 +2,8 @@
 validator.py
 -------------
 Responsabilidad de este módulo (Iteración 3):
-Aplicar las REGLAS DE NEGOCIO definidas por el desarrollador sobre los
-datos ya extraídos por analyzer.py, y decidir si una línea es válida
-o inválida.
+Aplicar las reglas de negocio sobre los datos extraídos por analyzer.py,
+y decidir si una línea es válida o inválida.
 """
 
 from datetime import datetime
@@ -14,9 +13,9 @@ from constants import SEVERITY_LEVELS, DATE_FORMAT
 
 def es_fecha_valida(fecha_texto: str) -> bool:
     """
-    Verifica si un texto representa una fecha real en formato YYYY-MM-DD.
-    Usamos datetime.strptime() y no solo regex, porque una regex confirma
-    que el TEXTO tiene forma de fecha, pero no que exista en el calendario.
+    Verifica si un texto representa una fecha real en formato YYYY-MM-DD,
+    usando datetime.strptime() (no solo regex), para validar formato
+    y existencia calendárica a la vez.
     """
     try:
         datetime.strptime(fecha_texto, DATE_FORMAT)

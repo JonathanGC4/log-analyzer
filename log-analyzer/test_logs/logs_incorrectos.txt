@@ -1,0 +1,5 @@
+2025-01-10 Mensaje sin severidad
+[DEBUG] 2025-01-10 Severidad no reconocida
+[ERROR] 2025-13-40 Fecha con mes y dia imposibles
+[ERROR] 10-01-2025 Formato de fecha incorrecto
+[INFO] 2025-01-10
